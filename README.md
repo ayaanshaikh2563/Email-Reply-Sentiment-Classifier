@@ -40,6 +40,16 @@ SVARAAI_Assignment/
 ├── test-api.py          # API testing script
 └── answers.md           # Assignment answers / notes
 ```
+-----
+## Visuals
+
+### 1\.Pipeline Flowchart
+<img width="2400" height="1600" alt="flowchart" src="https://github.com/user-attachments/assets/848ad351-8727-4fbf-98ca-13f9908d86ed" />
+
+### 2\.Frontend UI
+<img width="1919" height="1078" alt="Screenshot 2025-09-24 190601" src="https://github.com/user-attachments/assets/e14ff387-79df-4c68-97aa-dd4035225aa6" />
+<img width="1919" height="968" alt="Screenshot 2025-09-24 190727" src="https://github.com/user-attachments/assets/cc0e9862-d514-49ac-9b7b-6e9e55282d24" />
+<img width="1919" height="985" alt="Screenshot 2025-09-24 190859" src="https://github.com/user-attachments/assets/c538a893-cb95-4efa-a570-716f7e780332" />
 
 -----
 
@@ -151,3 +161,4 @@ Access the API and frontend on `http://localhost:8000`.
 *This assignment was completed by: Ayaan Shaikh* 
 -----
 *Date: September 24, 2025*
+
