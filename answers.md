@@ -2,12 +2,13 @@
 
 ## Question 1: If you only had 200 labeled replies, how would you improve the model without collecting thousands more?
 
-With only 200 labeled samples, I would apply data augmentation techniques like synonym replacement, back-translation, and paraphrasing to expand the dataset artificially. Additionally, I would leverage pre-trained models like DistilBERT for transfer learning, requiring minimal fine-tuning. Few-shot learning or synthetic data generation using GPT-based models could also help enhance the training data.
+I would use data augmentation like synonym replacement, paraphrasing, or back-translation to expand the dataset. I’d also leverage pre-trained models like DistilBERT for transfer learning, which performs well even with small data. Additionally, few-shot learning or generating synthetic examples using GPT could boost training without needing thousands of new labels.
 
 ## Question 2: How would you ensure your reply classifier doesn't produce biased or unsafe outputs in production?
 
-I would implement bias detection via thorough testing across demographics and communication styles and set confidence thresholds to flag uncertain predictions for human review. Ongoing monitoring, fairness-aware training, and periodic audits would ensure the model remains fair and safe.
+I’d test the model across different groups and styles to detect bias, set confidence thresholds to flag uncertain predictions for human review, and monitor outputs continuously. Periodic audits and fairness-aware retraining would help keep the model safe and unbiased over time.
 
 ## Question 3: Suppose you want to generate personalized cold email openers using an LLM. What prompt design strategies would you use to keep outputs relevant and non-generic?
 
-I would use prompts rich in prospect context, providing detailed information and industry specifics. Few-shot prompting with high-quality, varied examples ensures tone and relevance. Structured prompts with clear instructions to avoid generic phrases, combined with prompt chaining techniques, would guide the LLM to deliver tailored, effective openers.
+I’d provide the LLM with detailed context about the prospect and use few-shot prompting with quality examples to guide tone and style. Structured prompts with clear instructions and prompt chaining would help avoid generic outputs and make the openers more personalized and relevant.
+
